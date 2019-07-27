@@ -1,3 +1,4 @@
+## Context
 Bidding App is an application that allows its customers to take part of an auction and anonymously bid for different items registered by the admins of the application. As in any auction, whoever bids with the highest number for an item wins the right to purchase it. Of course, once a participant places a bid, any other participant can outbid them by placing a higher number (amount of money) for the same item.
 
 ## Your tasks
