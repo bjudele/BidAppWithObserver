@@ -10,11 +10,11 @@ What data structures do you need to use for implementing this? There is no singl
 
 - Create a mechanism that would automatically notify all the auction participants who bid for a specific item if a higher bid was placed for the same item.
 
-Ex: Jon bids 6 USD for a keyboard;
-
-Jack bids 7USD for the same keyboard – the app would notify Jon that he was outbid;
-
-Jill bids 8USD for the same keyboard – the app would notify both Jon and Jack that they were outbid.
+  Ex: Jon bids 6 USD for a keyboard;
+  
+  Jack bids 7USD for the same keyboard – the app would notify Jon that he was outbid;
+  
+  Jill bids 8USD for the same keyboard – the app would notify both Jon and Jack that they were outbid.
 
 ## Bonus
 
