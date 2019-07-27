@@ -30,6 +30,10 @@ public class Auction {
     System.out.println("\n\n Bid for " + item.getName() + " started!");
     Bid initialBid = createInitialBid(item);
     registerBid(initialBid);
+    askBiddersToBidFor(item);
+  }
+
+  private void askBiddersToBidFor(Item item) {
     boolean bidWasPlaced;
     do {
       bidWasPlaced = false;
@@ -39,7 +43,6 @@ public class Auction {
         }
       }
     } while (bidWasPlaced);
-
   }
 
   private Bid createInitialBid(Item item) {
